@@ -17,6 +17,13 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_increase_clicked();
+
+    void on_decrease_clicked();
+
+    void on_resoult_linkActivated(const QString &link);
+
 private:
     Ui::MainWindow *ui;
 };
