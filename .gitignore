@@ -1,0 +1,66 @@
+# General ignores
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.app
+*.out
+*.pch
+*.pdb
+*.exp
+
+# Qt Creator specific
+*.pro.user
+*.qws
+*.creator.*
+*.user
+*.qmlproject.user
+
+# Build directories
+build-*/
+debug/
+release/
+build/
+bin/
+dist/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# qmake files
+*.moc
+*.qrc
+*.qmlc
+*.qmltypes
+qrc_*.cpp
+ui_*.h
+
+# Intermediate files
+*.log
+*.tmp
+*.aux
+*.bak
+*.swp
+
+# Generated files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.rcc
+
+# IDE-specific
+.vscode/
+.idea/
+*.iml
+
+# System-specific
+.DS_Store
+Thumbs.db
+*.~*
